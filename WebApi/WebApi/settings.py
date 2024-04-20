@@ -38,7 +38,7 @@ INSTALLED_APPS = [
 
 CORS_ORIGIN_WHITELIST = [
     "http://127.0.0.1:8000",
-    "https://smonitor.onrender.com",
+    "https://login-api-yxhf.onrender.com,
     "http://127.0.0.1:5500",
     "http://localhost:3000",
     "https://.vercel.com",
