@@ -41,8 +41,8 @@ CORS_ORIGIN_WHITELIST = [
     "https://login-api-yxhf.onrender.com",
     "http://127.0.0.1:5500",
     "http://localhost:3000",
-    "https://.vercel.com",
-    "https://.netlify.com",
+    "https://app.vercel.com",
+    "https://app.netlify.com",
 ]
 
 
