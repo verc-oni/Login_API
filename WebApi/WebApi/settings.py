@@ -36,6 +36,16 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
+CORS_ORIGIN_WHITELIST = [
+    "http://127.0.0.1:8000",
+    "https://smonitor.onrender.com",
+    "http://127.0.0.1:5500",
+    "http://localhost:3000",
+    "https://.vercel.com",
+    "https://.netlify.com",
+]
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
