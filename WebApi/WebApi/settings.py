@@ -42,7 +42,7 @@ CORS_ORIGIN_WHITELIST = [
     "http://127.0.0.1:5500",
     "http://localhost:3000",
     "https://app.vercel.com",
-    "https://app.netlify.com",
+    "https://rbc-bank.netlify.app",
 ]
 
 
